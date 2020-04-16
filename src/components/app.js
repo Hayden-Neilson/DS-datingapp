@@ -12,10 +12,8 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-            <h1>DS Dating App</h1>
         <Router>
           <div>
-            <NavigationComponent />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/auth" component={Auth} />

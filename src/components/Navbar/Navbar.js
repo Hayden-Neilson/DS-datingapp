@@ -26,7 +26,7 @@ export default class navigationComponent extends Component {
 
                 </div>
 
-                <div className="right-side">DS-Dating-app</div>
+                <div className="right-side">Catfish Dating</div>
             </div>
         );
     }
