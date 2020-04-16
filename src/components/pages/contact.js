@@ -6,10 +6,15 @@ export default class Contact extends Component {
   }
   render() {
     return (
+
       <div className="page-container">
         <div className="form-group">
           <input type="text" id="fullName" placeholder="Your name"></input>
           <label for="fullName"></label>
+
+        <div>
+            About
+
         </div>
         <div className="form-group">
           <input type="email" id="email" placeholder="Your email"></input>
