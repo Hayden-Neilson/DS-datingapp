@@ -1,3 +1,4 @@
+
 import React, {Component} from "react";
 import { Link } from "react-router-dom";
 
@@ -51,5 +52,13 @@ export default class PortfolioItem extends Component {
                 </div>
             </body>
         );
-    }
+
+import React from 'react'
+
+export default function () {
+    return (
+        <div>
+            About
+        </div>
+    
 }
