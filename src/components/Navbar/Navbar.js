@@ -51,6 +51,8 @@ export default class navigationComponent extends Component {
                     </div>
 
                 </div>
+
+                <div className="right-side">Catfish Dating</div>
             </div>
         );
     }

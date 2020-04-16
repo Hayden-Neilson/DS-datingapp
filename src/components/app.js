@@ -8,7 +8,7 @@ import About from "./pages/about";
 import Auth from "./pages/auth";
 
 import UserProfile from "./pages/userprofile";
-=======
+
 
 
 
@@ -38,12 +38,14 @@ export default class App extends Component {
 
   render() {
     return (
+      <div className='app'>
+
       <div className="app">
         <h1>DS Dating App</h1>
       <div className='app'
+
         <Router>
           <div>
-            <NavigationComponent />
             <Switch>
               <Route exact path="/" component={Home} />
 
