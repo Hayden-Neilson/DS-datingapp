@@ -11,7 +11,7 @@ export default class Contact extends Component {
         <div className="form-group">
           <input type="text" id="fullName" placeholder="Your name"></input>
           <label for="fullName"></label>
-
+        </div>
         <div>
             About
 

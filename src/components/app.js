@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import NavigationComponent from "./Navbar/Navbar";
+import NavigationComponent from "./Navbar/navbar";
 import Home from "./pages/Home";
 import Contact from "./pages/contact";
 import About from "./pages/about";
@@ -40,12 +40,9 @@ export default class App extends Component {
     return (
       <div className='app'>
 
-      <div className="app">
-        <h1>DS Dating App</h1>
-      <div className='app'
-
         <Router>
           <div>
+            <NavigationComponent />
             <Switch>
               <Route exact path="/" component={Home} />
 
