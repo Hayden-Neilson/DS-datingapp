@@ -8,13 +8,12 @@ export default class Contact extends Component {
     return (
 
       <div className="page-container">
+        <div>
+          About
+        </div>
         <div className="form-group">
           <input type="text" id="fullName" placeholder="Your name"></input>
           <label for="fullName"></label>
-        </div>
-        <div>
-            About
-
         </div>
         <div className="form-group">
           <input type="email" id="email" placeholder="Your email"></input>

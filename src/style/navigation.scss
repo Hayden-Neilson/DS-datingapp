@@ -1,4 +1,7 @@
+@import "./variables.scss";
+
 .nav-wrapper {
+    background-color: $charcoal;
     display: flex;
     justify-content: center;
     align-items: center;
