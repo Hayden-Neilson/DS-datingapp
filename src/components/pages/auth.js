@@ -18,7 +18,6 @@ export default class Auth extends Component {
 
                 <div className="right-column">
                     <Login />
-                    <h1>Login Component goes here...</h1>
                 </div>
             </div>
         );
