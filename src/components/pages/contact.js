@@ -9,7 +9,7 @@ export default class Contact extends Component {
 
       <div className="page-container">
         <div>
-          About
+          Contact
         </div>
         <div className="form-group">
           <input type="text" id="fullName" placeholder="Your name"></input>
